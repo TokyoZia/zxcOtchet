@@ -1,0 +1,124 @@
+.some {
+  width: 100%;
+  height: 70vh;
+}
+@media (max-width: 1200px) {
+  .some {
+    height: 50vh;
+  }
+}
+@media (max-width: 767px) {
+  .some {
+    height: 70vh;
+  }
+}
+@media (max-width: 500px) {
+  .some {
+    height: 50vh;
+  }
+}
+.some__bgimg {
+  width: 100%;
+  height: 100%;
+  background: url("../img/some/01.jpg") left top/100% 100% no-repeat;
+}
+.some__content {
+  width: 25%;
+  height: 50%;
+  color: #ffffff;
+}
+@media (max-width: 767px) {
+  .some__content {
+    width: 50%;
+  }
+}
+.some__content_button {
+  padding-left: 50px;
+  margin-bottom: 20px;
+  padding-top: 220px;
+}
+.some__content_button a {
+  display: inline-block;
+  width: 93px;
+  height: 25px;
+  padding-top: 5px;
+  border-radius: 10px;
+  color: #333041;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+}
+.some__content_button a:hover {
+  box-shadow: 3px 0px 25px 0px rgba(53, 48, 44, 0.72);
+}
+.some__content_button a:active {
+  box-shadow: 3px 0px 15px 0px rgba(53, 48, 44, 0.72);
+}
+@media (max-width: 1200px) {
+  .some__content_button {
+    padding-left: 15px;
+  }
+}
+@media (max-width: 900px) {
+  .some__content_button a {
+    width: 60px;
+    height: 20px;
+    font-size: 10px;
+  }
+}
+.some__content_button a {
+  color: #ffffff;
+  background-color: #aca880;
+}
+@media (max-width: 1200px) {
+  .some__content_button {
+    padding-top: 110px;
+  }
+}
+.some__content_title {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 25px;
+}
+@media (max-width: 1200px) {
+  .some__content_title {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (max-width: 900px) {
+  .some__content_title {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1200px) {
+  .some__content_title {
+    padding-top: 10px;
+  }
+}
+.some__content_timeago {
+  padding: 10px 0px 10px 50px;
+  color: #696969;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 90px;
+}
+@media (max-width: 1200px) {
+  .some__content_timeago {
+    padding-left: 15px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 900px) {
+  .some__content_timeago {
+    font-size: 8px;
+  }
+}
+@media (max-width: 1200px) {
+  .some__content_timeago {
+    padding-top: 45px;
+  }
+}
