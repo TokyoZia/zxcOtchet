@@ -1,0 +1,143 @@
+.advice {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+}
+@media (max-width: 1200px) {
+  .advice {
+    height: 50vh;
+  }
+}
+@media (max-width: 767px) {
+  .advice {
+    height: 70vh;
+  }
+}
+@media (max-width: 500px) {
+  .advice {
+    height: 50vh;
+  }
+}
+.advice_1 {
+  background: url("../img/advice/01.jpg") left top/100% 100% no-repeat;
+}
+.advice_1 a {
+  background-color: #d65c4f;
+}
+.advice_2 {
+  background: url("../img/advice/02.jpg") left top/100% 100% no-repeat;
+}
+.advice_2 a {
+  background-color: #eeb7a4;
+}
+.advice_3 {
+  background: url("../img/advice/03.jpg") left top/100% 100% no-repeat;
+}
+.advice_3 a {
+  background-color: #a5b3af;
+}
+.advice_4 {
+  background: url("../img/advice/04.jpg") left top/100% 100% no-repeat;
+}
+.advice_4 a {
+  background-color: #bc8b54;
+}
+.advice_4 .advice__title {
+  color: #fff;
+}
+.advice_4 .advice__timeago {
+  color: #fff;
+}
+.advice__column {
+  height: 100%;
+  flex: 0 1 25%;
+}
+@media (max-width: 767px) {
+  .advice__column {
+    flex: 0 1 33.333%;
+  }
+}
+@media (max-width: 767px) {
+  .advice__column:last-child {
+    display: none;
+  }
+}
+.advice__column_content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.advice__button {
+  flex: 0 1 10%;
+  padding-left: 50px;
+  margin-bottom: 20px;
+}
+.advice__button a {
+  display: inline-block;
+  width: 93px;
+  height: 25px;
+  padding-top: 5px;
+  border-radius: 10px;
+  color: #333041;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+}
+.advice__button a:hover {
+  box-shadow: 3px 0px 25px 0px rgba(53, 48, 44, 0.72);
+}
+.advice__button a:active {
+  box-shadow: 3px 0px 15px 0px rgba(53, 48, 44, 0.72);
+}
+@media (max-width: 1200px) {
+  .advice__button {
+    padding-left: 15px;
+  }
+}
+@media (max-width: 900px) {
+  .advice__button a {
+    width: 60px;
+    height: 20px;
+    font-size: 10px;
+  }
+}
+.advice__button a {
+  color: #fff;
+}
+.advice__title {
+  flex: 0 1 30%;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 30px;
+  font-weight: 700;
+}
+@media (max-width: 1200px) {
+  .advice__title {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (max-width: 900px) {
+  .advice__title {
+    font-size: 15px;
+  }
+}
+.advice__timeago {
+  flex: 0 1 10%;
+  padding: 10px 0px 10px 50px;
+  color: #696969;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+@media (max-width: 1200px) {
+  .advice__timeago {
+    padding-left: 15px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 900px) {
+  .advice__timeago {
+    font-size: 8px;
+  }
+}
